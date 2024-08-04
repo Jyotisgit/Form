@@ -1,0 +1,90 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+body {
+    background-image: url('https://images.pexels.com/photos/247160/pexels-photo-247160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3); 
+    border-radius: 25px; 
+    backdrop-filter: blur(10px); 
+}
+
+
+h1 {
+    text-align: center;
+    color: whitesmoke; 
+}
+
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 25px; 
+    padding: 20px;
+    margin: 0;
+    background: transparent; 
+    border-color: rgba(255, 255, 255, 0.5); 
+}
+
+
+.name-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.input-group {
+    flex: 1;
+    margin-right: 10px; 
+}
+
+
+.input-group:last-child {
+    margin-right: 0;
+}
+
+
+label, h1 {
+    color:whitesmoke;
+}
+
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px; 
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px; 
+    color: whitesmoke; 
+    background: white; 
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px; 
+    border: none;
+    border-radius: 25px; 
+    background: #007BFF; 
+    color: white; 
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3; 
+}
